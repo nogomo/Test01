@@ -7,7 +7,14 @@ import org.springframework.boot.test.context.SpringBootTest;
 class Test01ApplicationTests {
 
 	@Test
-	void contextLoads() {
+	void test01() {
+		assertTrue(true);
 	}
 
+	@Test
+	void test02() {
+		assertTrue(false);
+	}
+	
+	
 }
